@@ -19,7 +19,7 @@ or
     </repositories>
 ```
 
-## mvn install
+## mvn install  (maven-metadata-local.xml will be created at local maven repository)
 ```xml
 mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc14 -Dversion=10.2.0.5.0 -Dpackaging=jar -Dfile=D:\river\mvnrepository\com\oracle\ojdbc14\10.2.0.5.0\ojdbc14-10.2.0.5.0.jar
 ```
